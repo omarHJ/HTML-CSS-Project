@@ -17,23 +17,12 @@ a{
 	text-decoration: none;
 	color: inherit;
 	cursor: pointer;
-
-	opacity: 0.9;
+	opacity: 0.8;
 }
 
 a:hover{
 	opacity: 1;
 }
-
-a.btn{
-	color: #fff;
-	border-radius: 4px;
-	text-transform: uppercase;
-	background-color: #2196F3;
-	font-weight: 800;
-	text-align: center;
-}
-
 hr{
 	width: 150px;
 	height: 2px;
@@ -46,7 +35,6 @@ section{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
 	padding: 125px 100px;
 }
 
@@ -102,12 +90,6 @@ ul.grid{
 	flex-wrap: wrap;
 	justify-content: center;
 }
-
-
-/*-------------
- 	Header
--------------*/
-
 header{
 	position: absolute;
 	top: 0;
@@ -160,13 +142,7 @@ header nav li:last-child{
 	}
 }
 
-
-
-/*----------------
- 	Hero Section
-----------------*/
-
-.hero{
+.main{
 	position: relative;
 	justify-content: center;
 	min-height: 100vh;
@@ -174,7 +150,7 @@ header nav li:last-child{
 	text-align: center;
 }
 
-.hero .background-image{
+.main .background-image{
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -185,7 +161,7 @@ header nav li:last-child{
 	z-index: -1;
 }
 
-.hero .background-image:after{
+.main .background-image:after{
 	content: '';
 	position: absolute;
 	top: 0;
@@ -196,35 +172,35 @@ header nav li:last-child{
 	opacity: 0.75;
 }
 
-.hero h1{
+.main h1{
 	font: bold 60px 'Open Sans', sans-serif;
 	margin-bottom: 15px;
 }
 
-.hero h3{
+.main h3{
 	font: normal 28px 'Open Sans', sans-serif;
 	margin-bottom: 40px;
 }
 
-.hero a.btn{
+.main a.btn{
 	padding: 20px 46px;
 }
 
 @media (max-width: 800px){
 
-	.hero{
+	.main{
 		min-height: 600px;
 	}
 
-	.hero h1{
+	.main h1{
 		font-size: 48px;
 	}
 
-	.hero h3{
+	.main h3{
 		font-size: 24px;
 	}
 
-	.hero a.btn{
+	.main a.btn{
 		padding: 15px 40px;
 	}
 
